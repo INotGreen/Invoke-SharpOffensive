@@ -25,8 +25,8 @@ Invoke-Ladon
 iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-Ladon/main/Invoke-Ladon.ps1);
 invoke-ladon "192.168.1.8/24 OnlinePC" > OnlinePC.txt
 ```
+![image](https://user-images.githubusercontent.com/89376703/197330353-73fb556c-b59b-43e9-a3ac-bc3e28d15644.png)
 
-![image-20221022163749096](C:\Users\Old Green\AppData\Roaming\Typora\typora-user-images\image-20221022163749096.png)
 
 
 
@@ -38,8 +38,8 @@ invoke-ladon "192.168.1.8/24 OnlinePC" > OnlinePC.txt
 iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-Ladon/main/Invoke-Ladon.ps1);
 invoke-ladon "192.168.1.8/24 MS17010" > MS17010.txt
 ```
+![image](https://user-images.githubusercontent.com/89376703/197330367-387b676a-6a4c-4ea9-951d-56aac29229e4.png)
 
-![image-20221022164026849](C:\Users\Old Green\AppData\Roaming\Typora\typora-user-images\image-20221022164026849.png)
 
 
 
@@ -47,7 +47,8 @@ invoke-ladon "192.168.1.8/24 MS17010" > MS17010.txt
 
 或者直接把调用命令放在脚本最后一行
 
-![image-20221022164515686](C:\Users\Old Green\AppData\Roaming\Typora\typora-user-images\image-20221022164515686.png)
+![image](https://user-images.githubusercontent.com/89376703/197330378-fff9e947-3c5e-47b8-b4ae-02576fdee671.png)
+
 
 ### 总结
 
