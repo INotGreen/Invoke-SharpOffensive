@@ -49,4 +49,4 @@ invoke-ladon "192.168.1.8/24 MS17010" > MS17010.txt
 
 ### 总结
 
-使用某些方法可以封装powershell的脚本，让powershell在内存中运行，以此规避一些防病毒软件的查杀，这样就防止从Ladon的源码进行免杀处理的操作
+使用某些方法可以封装powershell的脚本，让powershell在内存中运行，以此规避一些防病毒软件的查杀，这样就防止从Ladon的源码进行免杀处理的操作,对于powershell的免杀，有时候还要考虑规避AMSI的问题。
