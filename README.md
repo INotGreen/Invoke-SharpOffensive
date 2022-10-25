@@ -1,15 +1,15 @@
-# Invoke-Ladon
+
 
 
 
 ## 前言：
 
+
+
+# Invoke-Ladon
 之前使用Ladon的Powershell版本的时候似乎不能把扫描内容输出到txt文本中，因此我对它做了一点小小的修改。
 
 使用Gzip-compress 和 base64-Encode 转换Ladon的二进制文件然后base64编码解码 并通过[System.Reflection.Assembly]::Load($DecompressedDecodedBinary)在powershell中加载Ladon的二进制文件
-
-
-
 ## 使用方法：
 
 注意参数中需要加双引号
