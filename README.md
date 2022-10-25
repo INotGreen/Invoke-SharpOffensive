@@ -4,7 +4,7 @@
 
 ## 前言：
 windows平台上许多攻击性武器都是由C#编写的，并且可以轻松地转为powershell脚本，我将这个仓库作为一个集合，用来储存OffensiveCsharp的powershell代码
-# Invoke-Ladon
+# 1.Invoke-Ladon
 之前使用Ladon的Powershell版本的时候似乎不能把扫描内容输出到txt文本中，因此我对它做了一点小小的修改。
 
 使用Gzip-compress 和 base64-Encode 转换Ladon的二进制文件然后base64编码解码 并通过[System.Reflection.Assembly]::Load($DecompressedDecodedBinary)在powershell中加载Ladon的二进制文件
@@ -43,7 +43,7 @@ invoke-ladon "192.168.1.8/24 MS17010" > MS17010.txt
 或者直接把调用命令放在脚本最后一行
 
 ![image](https://user-images.githubusercontent.com/89376703/197330378-fff9e947-3c5e-47b8-b4ae-02576fdee671.png)
-# Invoke-Internalmonologue
+# 2.Invoke-Internalmonologue
 
 Internalmonologue
 
