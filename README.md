@@ -3,7 +3,7 @@
 
 
 ## 前言：
-一直以来，很多在windows平台上的攻击性代码都是由Csharp编写，由于Csharp和Powershell的联用较为方便，因此我将这个仓库作为一个集合，将一些Csharp的攻击性武器转换成powershell的代码。
+windows平台上许多攻击性武器都是由C#编写的并且可以轻松地转为powershell，我将这个仓库作为一个集合，用来储存OffensiveCsharp的powershell代码
 # Invoke-Ladon
 之前使用Ladon的Powershell版本的时候似乎不能把扫描内容输出到txt文本中，因此我对它做了一点小小的修改。
 
