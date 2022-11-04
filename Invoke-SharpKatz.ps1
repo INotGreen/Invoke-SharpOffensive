@@ -24,4 +24,4 @@ function Invoke-SharpKatz
     $Results = $StringWriter.ToString()
     $Results
 }
-FUNCTION_REPLACE
+
